@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #000000;
+}
+
+body .logo-img {
+  display: block;
+  margin: 160px auto 0 auto;
+}
+
+body .box-draw {
+  margin: 70px auto 50px auto;
+}
+
+body .box-draw h2 {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+}
+
+body .box-draw .box-input {
+  display: flex;
+  justify-content: center;
+}
+
+body .box-draw .box-input input {
+  margin-top: 7px;
+  color: #ffffff40;
+  border: 1px solid #ffffff33;
+  width: 342px;
+  height: 74px;
+  padding-left: 5px;
+  font-size: 40px;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 15px;
+  outline: none;
+}
+
+body .box-draw .box-input .input-min {
+  margin-right: 25px;
+}
+
+body .box-draw .box-input input::-webkit-inner-spin-button,
+body .box-draw .box-input input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+body .box-draw .draw-button {
+  margin: 55px auto 0 auto;
+  display: block;
+  height: 72px;
+  width: 342px;
+  border-radius: 10px;
+  background-color: #aec346;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 15px 2px #aec34659;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 2.5px;
+}
+
+body .box-draw .draw-button:hover {
+  opacity: 0.7;
+}
+
+body .box-draw .draw-button:active {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 780px) {
+  body .logo-img {
+    width: 100%;
+    padding: 30px;
+  }
+
+  body .box-draw .box-input {
+    padding: 0 20px 0 20px;
+  }
+
+  body .box-draw .box-input input {
+    width: 100%;
+  }
+
+  body .box-draw .draw-button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  body .logo-img {
+    margin-top: 80px;
+  }
+}
